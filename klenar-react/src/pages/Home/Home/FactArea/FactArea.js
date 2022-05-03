@@ -7,10 +7,10 @@ const FactArea = () => {
          <section className="tp-fact-area theme-dark-bg pt-75 pb-20">
             <div className="container">
                <div className="row">
-                  <HomeFactSingleItem icon="shuttle" fact_num="2025" title="Project Completed" />
-                  <HomeFactSingleItem icon="broom" fact_num="3050" title="Dedicated Cleaner" />
-                  <HomeFactSingleItem icon="selection" fact_num="8205" title="Satisfied Customer" />
-                  <HomeFactSingleItem icon="badge" fact_num="1232" title="International Awards" />
+                  <HomeFactSingleItem icon="24-hours-support" fact_num="1" title="Daily" />
+                  <HomeFactSingleItem icon="broom" fact_num="7" title="Weekly" />
+                  <HomeFactSingleItem icon="24-hours-support" fact_num="14" title="Bi-Weekly" />
+                  <HomeFactSingleItem icon="broom" fact_num="30" title="Monthly" />
                </div>
             </div>
          </section>

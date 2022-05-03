@@ -6,7 +6,7 @@ const HomeThreeSIngleAbout = ({icon,title}) => {
         <>
             <div className="col-sm-6">
                 <div className="tp-about-service mb-35">
-                    <div className="tp-about-service-icon yellow-circle-shape mb-20">
+                    <div className="tp-about-service-icon mb-20">
                         <i className={`flaticon-${icon}`}></i>
                     </div>
                     <div className="tp-about-service-text">

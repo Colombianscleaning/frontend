@@ -9,7 +9,7 @@ const BannerArea = () => {
             <div className="container">
                <div className="brand-active swiper-container">
 
-                  <Swiper
+                  {/* <Swiper
                      spaceBetween={30}
                      slidesPerView={2}
                      className='swiper-wrapper'
@@ -64,7 +64,7 @@ const BannerArea = () => {
                            <a href="/"><img src="assets/img/brand/brand-1.png" className="img-fluid" alt="img" /></a>
                         </div>
                      </SwiperSlide>
-                  </Swiper>
+                  </Swiper> */}
                </div>
             </div>
          </div>

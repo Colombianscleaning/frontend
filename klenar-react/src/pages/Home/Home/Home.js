@@ -23,12 +23,12 @@ const Home = () => {
             <AboutArea />
             <BannerArea />
             <ServiceArea />
-            <ChoseArea />
+            {/* <ChoseArea /> */}
             <FactArea />
-            <PricingArea />
-            <Testimonial />
+            {/* <PricingArea /> */}
+            {/* <Testimonial /> */}
             <Projects />
-            <ProgressArea />
+            {/* <ProgressArea /> */}
             <Blogs />
             <Footer/>
    

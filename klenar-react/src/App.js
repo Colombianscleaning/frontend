@@ -32,9 +32,9 @@ const App = () => {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          {/* <Route path="/home" element={<Home />} />
           <Route path="/homeTwo" element={<HomeTwo />} />
-          <Route path="/homeThree" element={<HomeThree />} />
+          <Route path="/homeThree" element={<HomeThree />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/appointment" element={<Appointment />} />
           <Route path="/pricing" element={<Pricing />} />

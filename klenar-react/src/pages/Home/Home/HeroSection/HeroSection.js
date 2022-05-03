@@ -18,8 +18,8 @@ const HeroSection = () => {
    return (
       <>
 
-         <ModalVideo channel='youtube' autoplay isOpen={isOpen}
-            videoId="o4GuSJYSzrY" onClose={() => setOpen(false)} />
+         {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen}
+            videoId="o4GuSJYSzrY" onClose={() => setOpen(false)} /> */}
 
          <section className="tp-slider-area fix">
             <div className="tp-slider-active home_hero_slide swiper-container common-dots">

@@ -27,7 +27,7 @@ const AboutArea = () => {
                         <div className="row mb-10">
                            <div className="col-sm-6">
                               <div className="tp-about-service mb-30">
-                                 <div className="tp-about-service-icon yellow-circle-shape mb-15">
+                                 <div className="tp-about-service-icon mb-15">
                                     <i className="flaticon-snowfall"></i>
                                  </div>
                                  <div className="tp-about-service-text">
@@ -39,7 +39,7 @@ const AboutArea = () => {
                            </div>
                            <div className="col-sm-6">
                               <div className="tp-about-service mb-30">
-                                 <div className="tp-about-service-icon yellow-circle-shape mb-15">
+                                 <div className="tp-about-service-icon mb-15">
                                     <i className="flaticon-business-and-trade"></i>
                                  </div>
                                  <div className="tp-about-service-text">

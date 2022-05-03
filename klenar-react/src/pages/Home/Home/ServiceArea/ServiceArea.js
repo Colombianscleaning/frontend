@@ -20,13 +20,13 @@ const ServiceArea = () => {
 
                         <HomeServiceItem icon_name="pot" title="Kitchen Cleaning" />
 
-                        <HomeServiceItem icon_name="vacuum-cleaner" title="Carpet Cleaning" />
+                        <HomeServiceItem icon_name="vacuum-cleaner" title="Vacuum Cleaning" />
 
                         <HomeServiceItem icon_name="house-cleaning" title="House Cleaning" />
 
                         <HomeServiceItem icon_name="desk" title="Office Cleaning" />
 
-                        <HomeServiceItem icon_name="cleaning" title="Road Cleaning" />
+                        <HomeServiceItem icon_name="mop" title="Mop Cleaning" />
 
                         <HomeServiceItem icon_name="window" title="Window Cleaning" />
 
