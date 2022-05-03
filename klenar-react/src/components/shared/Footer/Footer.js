@@ -45,12 +45,12 @@ const Footer = () => {
                                  <Link to="/"><img src="assets/img/logo/logo-clean.png" className="img-fluid" alt="img not found"/></Link>
                               </div>
                               <h4 className="mb-15"><a href="tel:1(631)336-4327">+1 (631) 336 - 4327</a></h4>
-                              <h6 className="mb-15"> <i > <FaEnvelopeOpen/> </i><a href="mailto:info@basictheme.com">colombianscleaning@gmail.com</a></h6>
+                              <h6 className="mb-15"> <i > <FaEnvelopeOpen/> </i><a href="mailto:colombianscleaning@gmail.com">colombianscleaning@gmail.com</a></h6>
                               <h6 className="mb-20"> <i> <FaMapMarkerAlt /> </i> Long Island, New York</h6>
                               <div className="tp-footer-info-social">
                                  <a href="/"><i><FaFacebookF className='icon' /> </i></a>
                                  <a href="/"><i><BsTwitter className='icon' /> </i></a>
-                                 <a href="/"><i><BsInstagram className='icon' /> </i></a>
+                                 <a href="https://www.instagram.com/colombians_cleaning/"><i><BsInstagram className='icon' /> </i></a>
                                  <a href="/"><i><AiOutlineGoogle className='icon' /> </i></a>
                               </div>
                            </div>

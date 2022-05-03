@@ -63,7 +63,7 @@ const Navigation = () => {
                                  </div>
                                  <div className="tp-header-top-info-single-text">
                                     <span className="tp-header-top-info-single-label text-dark">Free Call</span>
-                                    <a href="tel:1(631)3364327" className="tp-header-top-info-single-content font-medium text-dark">+1 (631) 336 - 4327</a>
+                                    <a href="tel:+1(631)3364327" className="tp-header-top-info-single-content font-medium text-dark">+1 (631) 336 - 4327</a>
                                  </div>
                               </div>
                               {/* <div className="tp-header-top-info-single">

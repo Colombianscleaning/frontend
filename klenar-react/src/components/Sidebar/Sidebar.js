@@ -7,7 +7,7 @@ import { BsTwitter, BsInstagram } from 'react-icons/bs';
 import Collapsible from 'react-collapsible';
 
 const Sidebar = ({ show, handleClose }) => {
-   const Home = <NavLink to="/home">Home</NavLink>
+   const Home = <NavLink to="/">Home</NavLink>
    const Pages = <NavLink to="/">Pages </NavLink>
    const Services = <NavLink to="/services">Services </NavLink>
    const Projects = <NavLink to="/projects">Projects</NavLink>
@@ -25,52 +25,47 @@ const Sidebar = ({ show, handleClose }) => {
 
                   <Collapsible trigger={Home} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
-                     <ul className="sidebar_sub_menu text-white mt-3">
-                        <li><NavLink to="/">Home Style 1</NavLink></li>
-                        <li><NavLink to="/homeTwo">Home Style 2</NavLink></li>
-                        <li><NavLink to="/homeThree">Home Style 3</NavLink></li>
-                     </ul>
                   </Collapsible>
 
-                  <Collapsible trigger={Pages} triggerTagName="div"
+                  {/* <Collapsible trigger={Pages} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                      <ul className="sidebar_sub_menu text-white mt-3">
-                        <li><NavLink to="/about">About</NavLink></li>
-                        <li><NavLink to="/appointment">Appointment</NavLink></li>
-                        <li><NavLink to="/pricing">Pricing</NavLink></li>
-                        <li><NavLink to="/team">Team</NavLink></li>
-                        <li><NavLink to="/teamDetails">Team Details</NavLink></li>
-                        <li><NavLink to="/faq">Faq</NavLink></li>
+                        <li><NavLink to="/">About</NavLink></li>
+                        <li><NavLink to="/">Appointment</NavLink></li>
+                        <li><NavLink to="/">Pricing</NavLink></li>
+                        <li><NavLink to="/">Team</NavLink></li>
+                        <li><NavLink to="/">Team Details</NavLink></li>
+                        <li><NavLink to="/">Faq</NavLink></li>
                      </ul>
                   </Collapsible>
 
                   <Collapsible trigger={Services} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                      <ul className="sidebar_sub_menu text-white mt-3">
-                        <li><NavLink to="/services">Services</NavLink></li>
-                        <li><NavLink to="/servicesDetails">Services Details</NavLink></li>
+                        <li><NavLink to="/">Services</NavLink></li>
+                        <li><NavLink to="/">Services Details</NavLink></li>
                      </ul>
                   </Collapsible>
 
                   <Collapsible trigger={Projects} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                      <ul className="sidebar_sub_menu text-white mt-3">
-                        <li><NavLink to="/projects">Projects</NavLink></li>
-                        <li><NavLink to="/projectsDetails">Projects Details</NavLink></li>
+                        <li><NavLink to="/">Projects</NavLink></li>
+                        <li><NavLink to="/">Projects Details</NavLink></li>
                      </ul>
                   </Collapsible>
 
                   <Collapsible trigger={Blog} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                      <ul className="sidebar_sub_menu text-white mt-3">
-                        <li><NavLink to="/blogSidebar">Blog Sidebar</NavLink></li>
-                        <li><NavLink to="/blogDetails">Blog Details</NavLink></li>
+                        <li><NavLink to="/">Blog Sidebar</NavLink></li>
+                        <li><NavLink to="/">Blog Details</NavLink></li>
                      </ul>
                   </Collapsible>
 
                   <div className='contact_nav text-white font-bold'>
                      <NavLink className="font-bold" to="/contact">Contact</NavLink>
-                  </div>
+                  </div> */}
 
                   <div className="fix">
                      <div className="side-info">
@@ -80,14 +75,14 @@ const Sidebar = ({ show, handleClose }) => {
                               <div className="contact-list mb-30">
                                  <h4>Contact Info</h4>
                                  <ul>
-                                    <li><i className="flaticon-pin"></i>28/4 Palmal, London</li>
-                                    <li><i className="flaticon-email"></i><a href="mailto:info@klenar.com">info@klenar.com</a></li>
-                                    <li><i className="flaticon-phone-call"></i><a href="tel:33388820055">333 888 200 - 55</a></li>
+                                    <li><i className="flaticon-pin"></i>Long Island, NY</li>
+                                    <li><i className="flaticon-email"></i><a href="colombianscleaning@gmail.com">colombianscleaning@gmail.com</a></li>
+                                    <li><i className="flaticon-phone-call"></i><a href="tel:1(631)336-4327">+1 (631) 336 - 4327</a></li>
                                  </ul>
                                  <div className="sidebar__menu--social">
                                     <a className="text-white" href="/"><i><FaFacebookF className='icon' /> </i></a>
                                     <a className="text-white" href="/"><i><BsTwitter className='icon' /> </i></a>
-                                    <a className="text-white" href="/"><i><BsInstagram className='icon' /> </i></a>
+                                    <a className="text-white" href="https://www.instagram.com/colombians_cleaning/"><i><BsInstagram className='icon' /> </i></a>
                                     <a className="text-white" href="/"><i><AiOutlineGoogle className='icon' /> </i></a>
                                  </div>
                               </div>

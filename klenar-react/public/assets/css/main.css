@@ -2003,7 +2003,7 @@ select {
 }
 
 .tp-header-top-info-single-btn {
-  line-height: 1;
+  line-height: 2;
 }
 
 .border-right-1 {
@@ -2038,7 +2038,7 @@ select {
   display: block;
   position: relative;
   z-index: 1;
-  line-height: 1;
+  line-height: 2;
   padding: 31px 0px;
 }
 .tp-main-menu ul li a:before {
