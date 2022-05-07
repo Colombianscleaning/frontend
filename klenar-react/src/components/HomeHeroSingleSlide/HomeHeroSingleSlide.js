@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const HomeHeroSingleSlide = ({ setOpen }) => {
     return (
         <>
-            <div className="tp-single-slider tp-slider-height d-flex align-items-center swiper-slide" data-swiper-autoplay="5000">
+            <div className="tp-single-slider tp-slider-height d-flex align-items-center swiper-slide" data-swiper-autoplay="5000" id="home">
                 <div className="slide-bg" data-background="assets/img/slider/background.png"></div>
                 <div className="slider-img">
                     <img src="assets/img/slider/image.png" className="img-fluid" alt="img not found" />
@@ -23,15 +23,15 @@ const HomeHeroSingleSlide = ({ setOpen }) => {
                                 <div className="tp-slider z-index">
 
                                     <Fade left>
-                                        <h5 className="tp-slider-subtitle section__sm__title common-yellow-shape w-50 mb-35">Fast and efficient service</h5>
+                                        <h3 className="section__sm__title w-50 mb-35">¡Free Estimates!</h3>
                                     </Fade>
 
-                                    <h1 className="tp-slider-title mb-20">
+                                    <h2 className="tp-slider-title mb-20">
                                         <Fade right><h1>Q'hubo pues!</h1></Fade>
-                                        <Fade right>Don't have time</Fade>
-                                        <Fade right>to clean up?</Fade>
-                                        <Fade top>We do it for you!</Fade>
-                                    </h1>
+                                        <Fade right>DON'T HAVE TIME</Fade>
+                                        <Fade right>TO CLEAN UP?</Fade>
+                                        <Fade top>WE DO IT FOR YOU!</Fade>
+                                    </h2>
 
                                     <div className="tp-slider-btn">
                                         <Fade bottom>

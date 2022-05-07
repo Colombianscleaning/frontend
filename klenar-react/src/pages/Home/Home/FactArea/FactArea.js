@@ -10,7 +10,7 @@ const FactArea = () => {
                   <HomeFactSingleItem icon="24-hours-support" fact_num="1" title="Daily" />
                   <HomeFactSingleItem icon="broom" fact_num="7" title="Weekly" />
                   <HomeFactSingleItem icon="24-hours-support" fact_num="14" title="Bi-Weekly" />
-                  <HomeFactSingleItem icon="broom" fact_num="30" title="Monthly" />
+                  <HomeFactSingleItem icon="broom" fact_num="30" title="OR-Monthly" />
                </div>
             </div>
          </section>

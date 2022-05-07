@@ -1,8 +1,9 @@
 import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import Sidebar from '../../Sidebar/Sidebar';
 import { FaBars } from 'react-icons/fa';
+import { HashLink as NavLink } from 'react-router-hash-link';
 
 const Navigation = () => {
    const [show, setShow] = useState(false);
@@ -24,7 +25,7 @@ const Navigation = () => {
       <>
          <header>
             <div className="tp-header-area">
-               <div className="tp-header-top pt-20 pb-50 d-none d-xl-block">
+               <div className="tp-header-top pt-30 pb-60 d-none d-xl-block">
                   <div className="tp-custom-container">
                      <div className="row align-items-center">
                         <div className="col-xxl-4 col-xl-5">
@@ -91,7 +92,7 @@ const Navigation = () => {
                               <div className="tp-main-menu">
                                  <nav id="tp-mobile-menu">
                                     <ul className="text-center">
-                                       <li className="menu-item-has-children"><NavLink to="/">Home</NavLink>
+                                       <li className="menu-item-has-children"><NavLink to="#home">Home</NavLink>
                                           {/* <ul className="sub-menu">
                                              <li><NavLink to="/">Home Style 1</NavLink></li>
                                              <li><NavLink to="/homeTwo">Home Style 2</NavLink></li>
@@ -110,22 +111,25 @@ const Navigation = () => {
                                              <li><NavLink to="/faq">Faq</NavLink></li>
                                           </ul>
                                        </li> */}
-                                       <li className="menu-item-has-children text-dark">
-                                          <NavLink to="/">Services </NavLink>
-                                          <ul className="sub-menu">
-                                             <li><NavLink to="/">Services</NavLink></li>
-                                             <li><NavLink to="/">Services Details</NavLink></li>
-                                          </ul>
+                                       <li>
+                                          <NavLink to="#contact">Contact</NavLink>
                                        </li>
                                        <li className="menu-item-has-children">
-                                          <NavLink to="/">Projects</NavLink>
-                                          <ul className="sub-menu">
+                                          <NavLink to="#projects">Works</NavLink>
+                                          {/* <ul className="sub-menu">
                                              <li><NavLink to="/">Projects</NavLink></li>
                                              <li><NavLink to="/">Projects Details
                                              </NavLink></li>
-                                          </ul>
+                                          </ul> */}
                                        </li>
-                                       <li className="menu-item-has-children">
+                                       <li className="menu-item-has-children text-dark">
+                                          <NavLink to="#services">Services </NavLink>
+                                          {/* <ul className="sub-menu">
+                                             <li><NavLink to="/">Services</NavLink></li>
+                                             <li><NavLink to="/">Services Details</NavLink></li>
+                                          </ul> */}
+                                       </li>
+                                       {/* <li className="menu-item-has-children">
                                           <NavLink to="/">Blog</NavLink>
                                           <ul className="sub-menu">
                                              <li><NavLink to="/">Blog Sidebar</NavLink>
@@ -133,8 +137,7 @@ const Navigation = () => {
                                              <li><NavLink to="/">Blog Details</NavLink>
                                              </li>
                                           </ul>
-                                       </li>
-                                       <li><NavLink to="/">Contact</NavLink></li>
+                                       </li> */}
                                     </ul>
                                  </nav>
                               </div>

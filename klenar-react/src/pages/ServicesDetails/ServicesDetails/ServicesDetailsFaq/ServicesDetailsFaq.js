@@ -20,22 +20,22 @@ const ServicesDetailsFaq = () => {
                 <div className="tp-faqs-left-sidebar tp-services-sidebar mb-30">
                   <h4 className="tp-faqs-left-sidebar-title">Category...</h4>
                   <ul>
-                    <li><a href="#">Carpet Cleaning <i> <FaArrowAltCircleRight /> </i> </a></li>
-                    <li><a href="#">House Cleaning <i> <FaArrowAltCircleRight /> </i> </a></li>
-                    <li><a href="#">Road Cleaning <i> <FaArrowAltCircleRight /> </i> </a></li>
-                    <li><a href="#">Kitchen Cleaning <i> <FaArrowAltCircleRight /> </i> </a></li>
-                    <li><a href="#">Toilet Cleaning <i> <FaArrowAltCircleRight /> </i> </a></li>
-                    <li><a href="#">Office Cleaning <i> <FaArrowAltCircleRight /> </i> </a></li>
+                    <li><a href="/">Carpet Cleaning <i> <FaArrowAltCircleRight /> </i> </a></li>
+                    <li><a href="/">House Cleaning <i> <FaArrowAltCircleRight /> </i> </a></li>
+                    <li><a href="/">Road Cleaning <i> <FaArrowAltCircleRight /> </i> </a></li>
+                    <li><a href="/">Kitchen Cleaning <i> <FaArrowAltCircleRight /> </i> </a></li>
+                    <li><a href="/">Toilet Cleaning <i> <FaArrowAltCircleRight /> </i> </a></li>
+                    <li><a href="/">Office Cleaning <i> <FaArrowAltCircleRight /> </i> </a></li>
                   </ul>
                 </div>
                 <div className="tp-faqs-left-img mb-30">
-                  <a href="#"><img src="assets/img/about/faq-img-1.jpg" className="img" alt="img not found" /></a>
+                  <a href="/"><img src="assets/img/about/faq-img-1.jpg" className="img" alt="img not found" /></a>
                 </div>
                 <div className="tp-faqs-left-sidebar tp-services-sidebar mb-30">
                   <h4 className="tp-faqs-left-sidebar-title mb-30">Category...</h4>
                   <div className="tp-services-sidebar-btn">
-                    <a href="#" className="mb-15 text-white"><i className="flaticon-pdf-file"></i> Presentation</a>
-                    <a href="#" className="mb-10 text-white"><i className="flaticon-file"></i> Download.txt</a>
+                    <a href="/" className="mb-15 text-white"><i className="flaticon-pdf-file"></i> Presentation</a>
+                    <a href="/" className="mb-10 text-white"><i className="flaticon-file"></i> Download.txt</a>
                   </div>
                 </div>
               </div>

@@ -20,16 +20,16 @@ const Home = () => {
             <Navigation/> 
             <HeroSection />
             <CtaArea />
-            <AboutArea />
+            <Projects />
             <BannerArea />
             <ServiceArea />
-            {/* <ChoseArea /> */}
             <FactArea />
+            <AboutArea />
+            {/* <ChoseArea /> */}
             {/* <PricingArea /> */}
             {/* <Testimonial /> */}
-            <Projects />
             {/* <ProgressArea /> */}
-            <Blogs />
+            {/* <Blogs /> */}
             <Footer/>
    
       </>

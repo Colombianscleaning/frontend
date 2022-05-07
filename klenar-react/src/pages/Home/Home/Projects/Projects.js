@@ -10,12 +10,12 @@ SwiperCore.use([Navigation]);
 const Projects = () => {
    return (
       <>
-         <section className="tp-project-area white-bg position-relative">
+         <section className="tp-project-area white-bg position-relative" id="projects">
             <div className="tp-project-shape"></div>
             <div className="tp-project-wrapper grey-bg pt-120 wow fadeInUp" data-wow-delay=".2s">
                <div className="section-title-wrapper text-center mb-55 grey-bg">
-                  <h5 className="tp-section-subtitle common-yellow-shape section__sm__title mb-20">Some Completed Project</h5>
-                  <h2 className="tp-section-title mb-20">Every Project is Different <br />Every Client special</h2>
+                  <h5 className="tp-section-subtitle common-yellow-shape section__sm__title mb-20">Some Completed Works</h5>
+                  <h2 className="tp-section-title mb-20">Every Work is Different <br />Every Client special</h2>
                </div>
                <div className="tp-project-active swiper-container">
                   <Swiper
