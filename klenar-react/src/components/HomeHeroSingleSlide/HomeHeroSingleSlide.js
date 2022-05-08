@@ -35,7 +35,7 @@ const HomeHeroSingleSlide = ({ setOpen }) => {
 
                                     <div className="tp-slider-btn">
                                         <Fade bottom>
-                                            <Link to="/" className="theme-btn text-white">
+                                            <Link to="#contact" className="theme-btn text-white">
                                                 <i className="flaticon-enter"></i> Learn More</Link>
                                         </Fade>
                                     </div>

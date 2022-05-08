@@ -25,7 +25,7 @@ const Navigation = () => {
       <>
          <header>
             <div className="tp-header-area">
-               <div className="tp-header-top pt-30 pb-60 d-none d-xl-block">
+               <div className="tp-header-top pt-40 pb-80 d-none d-xl-block">
                   <div className="tp-custom-container">
                      <div className="row align-items-center">
                         <div className="col-xxl-4 col-xl-5">
@@ -87,7 +87,7 @@ const Navigation = () => {
                               </Link>                           
                            </div>
                         </div>
-                        <div className="col-xl-8 col-4">
+                        <div className="col-xl-6 col-4">
                            <div className="tp-main-menu-bg">
                               <div className="tp-main-menu">
                                  <nav id="tp-mobile-menu">

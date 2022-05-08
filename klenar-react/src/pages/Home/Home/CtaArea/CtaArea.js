@@ -22,22 +22,15 @@ const CtaArea = () => {
 
    const handleEmail = (e) => {
       e.preventDefault();
-      
-      var content = {
-         name,
-         phoneNumber,
-         serviceName,
-         concurrency
-      }
 
       window.Email.send({
-         Host: "smtp.gmail.com",
-         Username: "cglv11@gmail.com",
-         Password:"upuflmtkihikuewo",
-         To: "cglv11@gmail.com",
+         Host: process.env.REACT_APP_HOST_SMTP,
+         Username: process.env.REACT_APP_USERNAME_SMTP,
+         Password: process.env.REACT_APP_PASSWORD_SMTP,
+         To: process.env.REACT_APP_TO_SMTP,
          From: `${email}`,
-         Subject: "Congratulations! New clean service",
-         Body: content,
+         Subject: "Congratulations! New Clean Service",
+         Body: `You have a new notification from your web site <br/> <br/> The information is: <br/> <br/> Name: ${name} <br/>Email: ${email} <br/>Phone number: ${phoneNumber} <br/>Service: ${serviceName} <br/>Concurrency: ${concurrency}`,
        }).then(function (message) {
          alert("Email sent successfully")
        });
