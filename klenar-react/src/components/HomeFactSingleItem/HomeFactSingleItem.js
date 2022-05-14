@@ -11,7 +11,7 @@ const HomeFactSingleItem = ({icon,fact_num,title}) => {
                     </div>
                     <div className="tp-fact-text">
                         <h2 className="tp-fact-text-title white-color mb-20">{fact_num}</h2>
-                        <h5 className="tp-fact-text-subtitle white-color">{title}</h5>
+                        <h3 className="tp-fact-text-subtitle white-color">{title}</h3>
                     </div>
                 </div>
             </div>

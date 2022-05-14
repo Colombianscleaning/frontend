@@ -1,16 +1,20 @@
 import React, { useState } from 'react';
 import { useForm } from '../../../../hooks/useForm';
+import axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const CtaArea = () => {
 
    const [serviceName, setServiceName] = useState("");
    const [concurrency, setConcurrency] = useState("");
-   const [{name, phoneNumber, email}, handleInputChange] = useForm({
+   const [{name, phoneNumber, email}, handleInputChange, reset] = useForm({
       name: '',
       phoneNumber: '',
       email: '', 
   })
 
+   const url = process.env.REACT_APP_API
 
    const handleChangeServiceName = (event) => {
       setServiceName(event.target.value)
@@ -22,25 +26,32 @@ const CtaArea = () => {
 
    const handleEmail = (e) => {
       e.preventDefault();
+      
+      const receiver_email = process.env.REACT_APP_RECEIVER_EMAIL
 
-      window.Email.send({
-         Host: process.env.REACT_APP_HOST_SMTP,
-         Username: process.env.REACT_APP_USERNAME_SMTP,
-         Password: process.env.REACT_APP_PASSWORD_SMTP,
-         To: process.env.REACT_APP_TO_SMTP,
-         From: `${email}`,
-         Subject: "Congratulations! New Clean Service",
-         Body: `You have a new notification from your web site <br/> <br/> The information is: <br/> <br/> Name: ${name} <br/>Email: ${email} <br/>Phone number: ${phoneNumber} <br/>Service: ${serviceName} <br/>Concurrency: ${concurrency}`,
-       }).then(function (message) {
-         alert("Email sent successfully")
-       });
+      const message = `You have a new notification from your web site <br/> <br/> The information is: <br/> <br/> Name: ${name} <br/>Email: ${email} <br/>Phone number: ${phoneNumber} <br/>Service: ${serviceName} <br/>Concurrency: ${concurrency}`
 
+      const data = { receiver_email, message }
 
+      axios.post(url, data, {
+         auth: {
+            username: process.env.REACT_APP_USER_EMAIL,
+            password: process.env.REACT_APP_PASSWORD_EMAIL
+         }
+      } ).then(res => {
+         console.log(res.data)
+         toast.info('This information has been sent')
+      })
+
+      setServiceName('')
+      setConcurrency('')
+      e.target.reset();
     }
 
    return (
       <>
          <section className="tp-appoint-cta-area yellow-dark-bg pt-80 pb-65" id="contact">
+            <ToastContainer />
             <div className="container">
                <form onSubmit={ handleEmail }>
                   <div className="row align-items-center custom-mar-20">

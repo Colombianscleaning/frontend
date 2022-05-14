@@ -38,7 +38,7 @@ const Footer = () => {
             <div className="tp-footer-area-two pt-80 pb-50">
                <div className="container">
                   <div className="row">
-                     <div className="col-lg-3 col-sm-6">
+                     <div className="col-lg-4 col-sm-6">
                         <div className="tp-footer-widget footer-col-1 mb-30 wow fadeInUp" data-wow-delay=".3s">
                            <div className="tp-footer-info">
                               <div className="tp-footer-info-logo mb-35">
@@ -48,27 +48,27 @@ const Footer = () => {
                               <h6 className="mb-15"> <i > <FaEnvelopeOpen/> </i><a href="mailto:colombianscleaning@gmail.com">colombianscleaning@gmail.com</a></h6>
                               <h6 className="mb-20"> <i> <FaMapMarkerAlt /> </i> Long Island, New York</h6>
                               <div className="tp-footer-info-social">
-                                 <a href="/"><i><FaFacebookF className='icon' /> </i></a>
-                                 <a href="/"><i><BsTwitter className='icon' /> </i></a>
+                                 <a href="https://www.facebook.com/Colombians-Cleaning-102273695261516/?ref=pages_you_manage"><i><FaFacebookF className='icon' /> </i></a>
+                                 {/* <a href="/"><i><BsTwitter className='icon' /> </i></a> */}
                                  <a href="https://www.instagram.com/colombians_cleaning/"><i><BsInstagram className='icon' /> </i></a>
-                                 <a href="/"><i><AiOutlineGoogle className='icon' /> </i></a>
+                                 {/* <a href="/"><i><AiOutlineGoogle className='icon' /> </i></a> */}
                               </div>
                            </div>
                         </div>
                      </div>
-                     <div className="col-lg-3 col-sm-6">
+                     <div className="col-lg-4 col-sm-6">
                         <div className="tp-footer-widget footer-col-2 mb-30 wow fadeInUp" data-wow-delay=".6s">
                            <h4 className="tp-footer-widget-title mb-35">Our Services</h4>
                            <ul>
-                              <li><a href="/">Carpet Cleaning</a></li>
-                              <li><a href="/">Plumbing Serivices</a></li>
-                              <li><a href="/">Park Cleaning</a></li>
-                              <li><a href="/">Residential Services</a></li>
-                              <li><a href="/">Toilet Cleaning</a></li>
+                              <li><a href="#services">Kitchen Cleaning</a></li>
+                              <li><a href="#services">Vacuum Cleaning</a></li>
+                              <li><a href="#services">House Cleaning</a></li>
+                              <li><a href="#services">Office Cleaning</a></li>
+                              <li><a href="#services">Mop Cleaning</a></li>
                            </ul>
                         </div>
                      </div>
-                     <div className="col-lg-3 col-sm-6">
+                     <div className="col-lg-4 col-sm-6">
                         <div className="tp-footer-widget footer-col-3 mb-30 wow fadeInUp" data-wow-delay=".9s">
                            <h4 className="tp-footer-widget-title mb-35">Recent News</h4>
                            <div className="tp-footer-news">
@@ -83,7 +83,7 @@ const Footer = () => {
                            </div>
                         </div>
                      </div>
-                     <div className="col-lg-3 col-sm-6">
+                     {/* <div className="col-lg-3 col-sm-6">
                         <div className="tp-footer-widget footer-col-4 mb-30 wow fadeInUp" data-wow-delay="1.2s">
                            <h4 className="tp-footer-widget-title mb-40">Instagram</h4>
                            <div className="tp-footer-insta">
@@ -107,7 +107,7 @@ const Footer = () => {
                                  </a>
                            </div>
                         </div>
-                     </div>
+                     </div> */}
                   </div>
                </div>
             </div>
@@ -116,7 +116,7 @@ const Footer = () => {
                   <div className="row">
                      <div className="col-12">
                         <div className="tp-copyright tp-copyright-two text-center">
-                           <p className="m-0">Copyright ©2022 <span>Theme_pure</span>. All Rights Reserved Copyright</p>
+                           <p className="m-0">Copyright ©2022 <span>Theme_pure</span> All Rights Reserved Copyright <span>Theme_pure</span> <a href="https://dsinno.io/">By Design Systems</a>  </p>
                         </div>
                      </div>
                   </div>
