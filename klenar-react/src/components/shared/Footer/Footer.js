@@ -71,7 +71,7 @@ const Footer = () => {
                      <div className="col-lg-4 col-sm-6">
                         <div className="tp-footer-widget footer-col-3 mb-30 wow fadeInUp" data-wow-delay=".9s">
                            <h4 className="tp-footer-widget-title mb-35">Recent News</h4>
-                           <div className="tp-footer-news">
+                           {/* <div className="tp-footer-news">
                               <div className="tp-footer-news-single mb-15">
                                  <h6><Link to="/">Orci magna pede, quisque sociis integer litora netus</Link></h6>
                                  <span>Jun 02, 2021</span>
@@ -80,7 +80,7 @@ const Footer = () => {
                                  <h6><Link to="/">Congue morbi elit dictumst socio sit mauris congue sed.</Link></h6>
                                  <span>Jun 02, 2021</span>
                               </div>
-                           </div>
+                           </div> */}
                         </div>
                      </div>
                      {/* <div className="col-lg-3 col-sm-6">

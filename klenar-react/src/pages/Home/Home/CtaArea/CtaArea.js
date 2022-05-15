@@ -14,7 +14,7 @@ const CtaArea = () => {
       email: '', 
   })
 
-   const url = process.env.REACT_APP_API
+   const url = "https://api.colombianscleaning.com/"
 
    const handleChangeServiceName = (event) => {
       setServiceName(event.target.value)
@@ -27,7 +27,7 @@ const CtaArea = () => {
    const handleEmail = (e) => {
       e.preventDefault();
       
-      const receiver_email = process.env.REACT_APP_RECEIVER_EMAIL
+      const receiver_email = "jairocarvajalochoa23@gmail.com"
 
       const message = `You have a new notification from your web site <br/> <br/> The information is: <br/> <br/> Name: ${name} <br/>Email: ${email} <br/>Phone number: ${phoneNumber} <br/>Service: ${serviceName} <br/>Concurrency: ${concurrency}`
 
@@ -35,8 +35,8 @@ const CtaArea = () => {
 
       axios.post(url, data, {
          auth: {
-            username: process.env.REACT_APP_USER_EMAIL,
-            password: process.env.REACT_APP_PASSWORD_EMAIL
+            username: "dsiemail",
+            password: "AAAAB3NzaC1yc2EAAAADAQABAAABgQC/zfe/pb+4UgwzEBYOeb9QQ6eG/rBhwLCS4XhZNxQYiB8Fxsut3v7u2isrd6EwuGu8qQo4oZEs1b0x39Nl+E9drOoIq1+7m9vAUmsBCW6omMs+YJHMbq3GPZMCQvrD1M2G34QBlpHeZCmxYMGoNLYybArEPvhg4y+zVJ37D6dnF/346BeNtduuG/Nle1yMHnw7koCntTykYP5qDJ1MaYfpJwuhLYWyu81RcHo+42RbIyMP42JWHxwFfVbrGG1wt4FJ0UU//HVDqzn/L7TsTwxJpMts863EOleGthu2oaK8g4wd/WWkxfLjbUw5PnLxWJrG76pS/6nsNbbpHqAmnl8vJQ+3vZVzcYumWVxkL7EHLroEPvzT1vkY349ZzW1XNcNiEZ/eJPtWY6SyZ1A0fEr1GxSxERnmK4oZSVDgZh2+/w0l5G1y9f8M9q37uv+gKe6Xjk274z3POOpLtZkpErBKlAoMES7pkW5KRWgChSRKaBCUS11SGTR60x530M1cnCU= root@user-ThinkPad-E490"
          }
       } ).then(res => {
          console.log(res.data)

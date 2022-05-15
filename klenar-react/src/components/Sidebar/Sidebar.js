@@ -7,10 +7,10 @@ import { BsTwitter, BsInstagram } from 'react-icons/bs';
 import Collapsible from 'react-collapsible';
 
 const Sidebar = ({ show, handleClose }) => {
-   const Home = <NavLink to="/">Home</NavLink>
-   const Pages = <NavLink to="/">Pages </NavLink>
-   const Services = <NavLink to="/services">Services </NavLink>
-   const Projects = <NavLink to="/projects">Projects</NavLink>
+   const Home = <NavLink to="#home">Home</NavLink>
+   const Contact = <NavLink to="#contact">Pages </NavLink>
+   const Services = <NavLink to="#services">Services </NavLink>
+   const Works = <NavLink to="#projects">Projects</NavLink>
    const Blog = <NavLink to="/blogSidebar">Blog</NavLink>
    return (
       <>
@@ -27,35 +27,36 @@ const Sidebar = ({ show, handleClose }) => {
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                   </Collapsible>
 
-                  {/* <Collapsible trigger={Pages} triggerTagName="div"
+                  <Collapsible trigger={Contact} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
-                     <ul className="sidebar_sub_menu text-white mt-3">
+                     {/* <ul className="sidebar_sub_menu text-white mt-3">
                         <li><NavLink to="/">About</NavLink></li>
                         <li><NavLink to="/">Appointment</NavLink></li>
                         <li><NavLink to="/">Pricing</NavLink></li>
                         <li><NavLink to="/">Team</NavLink></li>
                         <li><NavLink to="/">Team Details</NavLink></li>
                         <li><NavLink to="/">Faq</NavLink></li>
-                     </ul>
+                     </ul> */}
+                  </Collapsible>
+
+                  <Collapsible trigger={Works} triggerTagName="div"
+                     triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
+                     {/* <ul className="sidebar_sub_menu text-white mt-3">
+                        <li><NavLink to="/">Projects</NavLink></li>
+                        <li><NavLink to="/">Projects Details</NavLink></li>
+                     </ul> */}
                   </Collapsible>
 
                   <Collapsible trigger={Services} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
-                     <ul className="sidebar_sub_menu text-white mt-3">
+                     {/* <ul className="sidebar_sub_menu text-white mt-3">
                         <li><NavLink to="/">Services</NavLink></li>
                         <li><NavLink to="/">Services Details</NavLink></li>
-                     </ul>
+                     </ul> */}
                   </Collapsible>
 
-                  <Collapsible trigger={Projects} triggerTagName="div"
-                     triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
-                     <ul className="sidebar_sub_menu text-white mt-3">
-                        <li><NavLink to="/">Projects</NavLink></li>
-                        <li><NavLink to="/">Projects Details</NavLink></li>
-                     </ul>
-                  </Collapsible>
 
-                  <Collapsible trigger={Blog} triggerTagName="div"
+                  {/* <Collapsible trigger={Blog} triggerTagName="div"
                      triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                      <ul className="sidebar_sub_menu text-white mt-3">
                         <li><NavLink to="/">Blog Sidebar</NavLink></li>
@@ -80,10 +81,10 @@ const Sidebar = ({ show, handleClose }) => {
                                     <li><i className="flaticon-phone-call"></i><a href="tel:1(631)336-4327">+1 (631) 336 - 4327</a></li>
                                  </ul>
                                  <div className="sidebar__menu--social">
-                                    <a className="text-white" href="/"><i><FaFacebookF className='icon' /> </i></a>
-                                    <a className="text-white" href="/"><i><BsTwitter className='icon' /> </i></a>
+                                    <a className="text-white" href="https://www.facebook.com/Colombians-Cleaning-102273695261516/?ref=pages_you_manage"><i><FaFacebookF className='icon' /> </i></a>
+                                    {/* <a className="text-white" href="/"><i><BsTwitter className='icon' /> </i></a> */}
                                     <a className="text-white" href="https://www.instagram.com/colombians_cleaning/"><i><BsInstagram className='icon' /> </i></a>
-                                    <a className="text-white" href="/"><i><AiOutlineGoogle className='icon' /> </i></a>
+                                    {/* <a className="text-white" href="/"><i><AiOutlineGoogle className='icon' /> </i></a> */}
                                  </div>
                               </div>
                            </div>
