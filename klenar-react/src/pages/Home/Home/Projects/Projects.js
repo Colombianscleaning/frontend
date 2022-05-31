@@ -17,7 +17,7 @@ const Projects = () => {
                   <h5 className="tp-section-subtitle common-yellow-shape section__sm__title mb-20">Some Completed Works</h5>
                   <h2 className="tp-section-title mb-20">Every Work is Different <br />Every Client special</h2>
                </div>
-               <div className="tp-project-active swiper-container">
+               <div className="tp-project-active swiper-container ps-4">
                   <Swiper
                      spaceBetween={30}
                      slidesPerView={1}
@@ -45,27 +45,39 @@ const Projects = () => {
                   >
 
                      <SwiperSlide>
-                        <HomeSingleProject project_img_num="1" title="Bathroom Cleaning" />
+                        <HomeSingleProject project_img_num="1" title="Cleaning Services" />
                      </SwiperSlide>
 
                      <SwiperSlide>
-                        <HomeSingleProject project_img_num="2" title="Kitchen Cleaning" />
+                        <HomeSingleProject project_img_num="2" title="Cleaning Services" />
                      </SwiperSlide>
 
                      <SwiperSlide>
-                        <HomeSingleProject project_img_num="3" title="Room Cleaning" />
+                        <HomeSingleProject project_img_num="3" title="Cleaning Services" />
                      </SwiperSlide>
 
                      <SwiperSlide>
-                        <HomeSingleProject project_img_num="4" title="Office Cleaning" />
+                        <HomeSingleProject project_img_num="4" title="Cleaning Services" />
                      </SwiperSlide>
 
                      <SwiperSlide>
-                         <HomeSingleProject project_img_num="2" title="Kitchen Cleaning" />
+                         <HomeSingleProject project_img_num="5" title="Cleaning Services" />
                      </SwiperSlide>
 
                      <SwiperSlide>
-                        <HomeSingleProject project_img_num="3" title="Room Cleaning" />
+                        <HomeSingleProject project_img_num="6" title="Cleaning Services" />
+                     </SwiperSlide>
+
+                     <SwiperSlide>
+                        <HomeSingleProject project_img_num="7" title="Cleaning Services" />
+                     </SwiperSlide>
+
+                     <SwiperSlide>
+                        <HomeSingleProject project_img_num="8" title="Cleaning Services" />
+                     </SwiperSlide>
+
+                     <SwiperSlide>
+                        <HomeSingleProject project_img_num="9" title="Cleaning Services" />
                      </SwiperSlide>
 
                   </Swiper>

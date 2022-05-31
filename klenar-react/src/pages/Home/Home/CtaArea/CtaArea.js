@@ -27,7 +27,7 @@ const CtaArea = () => {
    const handleEmail = (e) => {
       e.preventDefault();
       
-      const receiver_email = "jairocarvajalochoa23@gmail.com"
+      const receiver_email = "colombianscleaning@gmail.com"
 
       const message = `You have a new notification from your web site <br/> <br/> The information is: <br/> <br/> Name: ${name} <br/>Email: ${email} <br/>Phone number: ${phoneNumber} <br/>Service: ${serviceName} <br/>Concurrency: ${concurrency}`
 
@@ -64,17 +64,17 @@ const CtaArea = () => {
                         <div className="row align-items-center custom-mar-20">
                            <div className="col-lg-4 custom-pad-20">
                               <div className="tp-appoint wow fadeInUp" data-wow-delay=".3s">
-                                 <input type="text" placeholder="Full Name" name="name" onChange={ handleInputChange }/>
+                                 <input type="text" placeholder="Full Name" name="name" onChange={ handleInputChange } required/>
                               </div>
                            </div>
                            <div className="col-lg-4 custom-pad-20">
                               <div className="tp-appoint wow fadeInUp" data-wow-delay=".5s">
-                                 <input type="text" placeholder="Phone Number" name="phoneNumber" onChange={ handleInputChange }/>
+                                 <input type="text" placeholder="Phone Number" name="phoneNumber" onChange={ handleInputChange } required/>
                               </div>
                            </div>
                            <div className="col-lg-4 custom-pad-20">
                               <div className="tp-appoint wow fadeInUp" data-wow-delay=".5s">
-                                 <input type="text" placeholder="Email" name="email" onChange={ handleInputChange }/>
+                                 <input type="text" placeholder="Email" name="email" onChange={ handleInputChange } required/>
                               </div>
                            </div>
                            <div className="col-lg-4 custom-pad-20">
