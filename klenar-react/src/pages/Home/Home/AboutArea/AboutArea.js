@@ -20,9 +20,9 @@ const AboutArea = () => {
                               About our Company</h5>
                            <h2 className="tp-section-title">Our Success Cleaning <br/>Up your Mess</h2>
                         </div>
-                        <p className="mb-40">Can consent to the use of such technologies byclosing this notice senectus amet sodales habitant dapibus </p>
+                        <p className="mb-40">Open the doors of your home to our experts, they are highly trained and equipped to provide you with the best cleaning service for days.</p>
                         <div className="row mb-10">
-                           <div className="col-sm-6">
+                           <div className="col-sm-12">
                               <div className="tp-about-service mb-30">
                                  <div className="tp-about-service-icon mb-15">
                                     <i className="flaticon-snowfall"></i>
@@ -30,11 +30,11 @@ const AboutArea = () => {
                                  <div className="tp-about-service-text">
                                     <h4 className="tp-about-service-text-title mb-15 hover-theme-color">
                                        <Link to="/">Residential Cleaning Services</Link></h4>
-                                    <p>Duis congue atend lorem consequat interdum pretium ligula semper</p>
+                                    <p>Our services include such services as vacuuming, bathroom, mopping, kitchens and dusting.</p>
                                  </div>
                               </div>
                            </div>
-                           <div className="col-sm-6">
+                           {/* <div className="col-sm-6">
                               <div className="tp-about-service mb-30">
                                  <div className="tp-about-service-icon mb-15">
                                     <i className="flaticon-business-and-trade"></i>
@@ -45,7 +45,7 @@ const AboutArea = () => {
                                     <p>Duis congue atend lorem consequat interdum pretium ligula semper</p>
                                  </div>
                               </div>
-                           </div>
+                           </div> */}
                         </div>
                         <div className="row">
                            <div className="col-sm-6">
