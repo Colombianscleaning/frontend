@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home/Home/Home';
@@ -21,17 +21,43 @@ import HomeTwo from './pages/HomeTwo/HomeTwo/HomeTwo';
 import HomeThree from './pages/HomeThree/HomeThree/HomeThree';
 
 const App = () => {
+
+  const [generationDetails, setGenerationDetails] = useState({
+    data: {
+      description: '',
+      title: 'Loading...',
+    }
+  });
+
+  const apiCall = () => {
+
+    console.log('Acá pasóoo');
+  }
   // wow animation active
   useEffect(() => {
     const wow = new WOW();
     wow.init();
-  }, []);
+
+  },[]);
+
   return (
     <>
+        {!!generationDetails && (
+          <div id="generation">
+          <div>
+          { apiCall() }
+              <div id="generationDescription"> 
+                  <div>Title:{generationDetails.data.title}</div>
+                  <div>Description: {generationDetails.data.description}</div>
+              </div>
+          </div>
+          </div>
+        )
+        }
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           {/* <Route path="/home" element={<Home />} />
           <Route path="/homeTwo" element={<HomeTwo />} />
           <Route path="/homeThree" element={<HomeThree />} /> */}
