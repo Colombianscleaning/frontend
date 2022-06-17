@@ -22,40 +22,28 @@ import HomeThree from './pages/HomeThree/HomeThree/HomeThree';
 
 const App = () => {
 
-  const [generationDetails, setGenerationDetails] = useState({
-    data: {
-      description: '',
-      title: 'Loading...',
-    }
-  });
+  // const [generationDetails, setGenerationDetails] = useState({
+  //   data: {
+  //     description: '',
+  //     title: 'Loading...',
+  //   }
+  // });
 
-  const apiCall = () => {
+  // const apiCall = () => {
 
-    console.log('Acá pasóoo');
-  }
+  //   console.log('Acá pasóoo');
+  // }
   // wow animation active
   useEffect(() => {
     const wow = new WOW();
     wow.init();
 
-    return () => apiCall()
+    // return () => apiCall()
 
   },[]);
 
   return (
     <>
-        {!!generationDetails && (
-          <div id="generation">
-          <div>
-          { apiCall() }
-              <div id="generationDescription"> 
-                  <div>Title:{generationDetails.data.title}</div>
-                  <div>Description: {generationDetails.data.description}</div>
-              </div>
-          </div>
-          </div>
-        )
-        }
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
