@@ -1,4 +1,3 @@
-# pull official base image
 FROM node:16-alpine
 
 # set working directory
@@ -10,8 +9,16 @@ ENV PATH /app/node_modules/.bin:$PATH
 # install app dependencies
 
 
-# add app
+# copy
 COPY . ./
 
+
+RUN npm i express
+
+RUN npm install --silent
+
+RUN npm install react-scripts@3.4.1 -g --silent
+
+
 # start app
-CMD ["server", "-s","build"]
+CMD ["node", "server.js"]

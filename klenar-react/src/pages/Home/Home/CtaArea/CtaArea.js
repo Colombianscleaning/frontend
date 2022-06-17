@@ -30,7 +30,6 @@ const CtaArea = () => {
          
       })
 
-      console.log(data);
    })
 
    const handleChangeServiceName = (event) => {

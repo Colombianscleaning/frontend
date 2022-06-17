@@ -38,6 +38,8 @@ const App = () => {
     const wow = new WOW();
     wow.init();
 
+    return () => apiCall()
+
   },[]);
 
   return (
