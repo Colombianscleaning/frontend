@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 
 ReactDOM.render(
   <React.Fragment>
-    <App />
+    <App/>
   </React.Fragment>,
   document.getElementById('root')
 );

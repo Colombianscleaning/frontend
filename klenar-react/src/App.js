@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef, useLayoutEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home/Home/Home';
@@ -20,25 +20,14 @@ import ScrollToTop from './components/ScrollToTop';
 import HomeTwo from './pages/HomeTwo/HomeTwo/HomeTwo';
 import HomeThree from './pages/HomeThree/HomeThree/HomeThree';
 
+
 const App = () => {
 
-  // const [generationDetails, setGenerationDetails] = useState({
-  //   data: {
-  //     description: '',
-  //     title: 'Loading...',
-  //   }
-  // });
-
-  // const apiCall = () => {
-
-  //   console.log('Acá pasóoo');
-  // }
   // wow animation active
   useEffect(() => {
+
     const wow = new WOW();
     wow.init();
-
-    // return () => apiCall()
 
   },[]);
 

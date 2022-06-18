@@ -7,7 +7,7 @@ const HomeSingleProject = ({project_img_num,title}) => {
         <>
             <div className="tp-project z-index swiper-slide mb-30 wow fadeInUp" data-wow-delay=".4s">
                 <div className="tp-project-img">
-                    <img src={`assets/img/project/clean${project_img_num}.jpg`} className="img-fluid"
+                    <img src={`${project_img_num}`} className="img-fluid"
                     alt="img not found" />
                 </div>
                 <div className="tp-project-text">
