@@ -8,7 +8,7 @@ import HomeSingleProject from '../../../../components/HomeSingleProject/HomeSing
 import axios from 'axios';
 
 SwiperCore.use([Navigation]);
-
+let imgs = []
 const Projects = () => {
 
    const [data, setData] = useState('');
@@ -30,6 +30,12 @@ const Projects = () => {
   
     },[]);
 
+   for (let i = 0; i<data.length; i++){
+      imgs.push(<SwiperSlide>
+         <HomeSingleProject project_img_num={data[i]} title="Cleaning Services" />
+      </SwiperSlide>)
+    }
+    
    return (
       <>
          <section className="tp-project-area white-bg position-relative" id="projects">
@@ -64,48 +70,11 @@ const Projects = () => {
                      }}
                      // onSlideChange={() => console.log('slide change')}
                      // onSwiper={(swiper) => console.log(swiper)}
-                  >
+                  >  
+                     {imgs}
+                     
 
-                     <SwiperSlide>
-                        <HomeSingleProject project_img_num={data[0]} title="Cleaning Services" />
-                     </SwiperSlide>
-
-                     <SwiperSlide>
-                        <HomeSingleProject project_img_num={data[1]} title="Cleaning Services" />
-                     </SwiperSlide>
-
-                     <SwiperSlide>
-                        <HomeSingleProject project_img_num={data[2]} title="Cleaning Services" />
-                     </SwiperSlide>
-
-                     <SwiperSlide>
-                        <HomeSingleProject project_img_num={data[3]} title="Cleaning Services" />
-                     </SwiperSlide>
-
-                     <SwiperSlide>
-                         <HomeSingleProject project_img_num={data[4]} title="Cleaning Services" />
-                     </SwiperSlide>
-
-                     <SwiperSlide>
-                        <HomeSingleProject project_img_num={data[5]} title="Cleaning Services" />
-                     </SwiperSlide>
-
-                     <SwiperSlide>
-                        <HomeSingleProject project_img_num={data[6]} title="Cleaning Services" />
-                     </SwiperSlide>
-
-                     <SwiperSlide>
-                        <HomeSingleProject project_img_num={data[7]} title="Cleaning Services" />
-                     </SwiperSlide>
-
-                     <SwiperSlide>
-                        <HomeSingleProject project_img_num={data[8]} title="Cleaning Services" />
-                     </SwiperSlide>
-
-                     <SwiperSlide>
-                        <HomeSingleProject project_img_num={data[9]} title="Cleaning Services" />
-                     </SwiperSlide>
-
+                   
                   </Swiper>
 
                </div>
