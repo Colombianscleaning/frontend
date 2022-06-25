@@ -15,9 +15,9 @@ const HomeSingleProject = ({project_img_num,title}) => {
                         <span className="tp-project-subtitle">Residential Service</span>
                         <h4 className="tp-project-title"><Link to="/projectsDetails">{title}</Link></h4>
                     </div>
-                    <div className="tp-project-text-icon">
+                    {/* <div className="tp-project-text-icon">
                         <Link to="/"><i  className="text-white"><GoPlus/></i></Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>
