@@ -60,11 +60,12 @@ const Footer = () => {
                         <div className="tp-footer-widget footer-col-2 mb-30 wow fadeInUp" data-wow-delay=".6s">
                            <h4 className="tp-footer-widget-title mb-35">Our Services</h4>
                            <ul>
-                              <li><a href="#services">Kitchen Cleaning</a></li>
-                              <li><a href="#services">Vacuum Cleaning</a></li>
-                              <li><a href="#services">House Cleaning</a></li>
-                              <li><a href="#services">Office Cleaning</a></li>
-                              <li><a href="#services">Mop Cleaning</a></li>
+                              <li><a href="#services">Kitchens</a></li>
+                              <li><a href="#services">Vacuuming</a></li>
+                              <li><a href="#services">Carpet Cleaning</a></li>
+                              <li><a href="#services">Dusting</a></li>
+                              <li><a href="#services">Mopping</a></li>
+                              <li><a href="#services">Bathrooms</a></li>
                            </ul>
                         </div>
                      </div>
@@ -116,7 +117,7 @@ const Footer = () => {
                   <div className="row">
                      <div className="col-12">
                         <div className="tp-copyright tp-copyright-two text-center">
-                           <p className="m-0">Copyright ©2022 <span>Theme_pure</span> All Rights Reserved Copyright <span>Theme_pure</span> <a href="https://dsinno.io/">By Design Systems</a>  </p>
+                           <p className="m-0">Copyright ©2022 <span>Theme_pure</span> All Rights Reserved Copyright <span>Theme_pure</span> <a href="https://dsinno.io/">By Design Systems Inno</a>  </p>
                         </div>
                      </div>
                   </div>
