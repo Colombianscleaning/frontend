@@ -23,12 +23,12 @@ const HomeThreeHeroSlide = () => {
                                         <br />Excellence <br />Guaranteed!</h1>
                                 </Fade>
 
-                                <Fade bottom>
+                                {/* <Fade bottom>
                                     <div className="tp-slider-three-btn">
                                         <Link to="/about" className="yellow-btn">
                                             <i className="flaticon-enter"></i> Learn More</Link>
                                     </div>
-                                </Fade>
+                                </Fade> */}
                             </div>
                         </div>
                     </div>

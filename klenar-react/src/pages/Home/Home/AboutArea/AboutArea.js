@@ -10,8 +10,8 @@ const AboutArea = () => {
             </div>
             <div className="container">
                <div className="row justify-content-xl-between justify-content-md-center">
-                  <div className="col-xl-5 col-12">
-                     <img src="assets/img/about/rabbit.png" alt="img not found"/>
+                  <div className="col-xl-6 col-12">
+                     <img src="assets/img/about/girl2.png" alt="img not found"/>
                   </div>
                   <div className="col-xl-6 col-md-10">
                      <div className="tp-about-text z-index wow fadeInUp" data-wow-delay=".6s">

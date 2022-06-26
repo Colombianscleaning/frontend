@@ -22,7 +22,7 @@ const ServiceArea = () => {
 
                         <HomeServiceItem icon_name="vacuum-cleaner" title="Vacuuming" info="Our goal when vacuuming is to remove dirt and grime that can damage the carpet fiber and surfaces, to expand the life of it. We seek to maximize the life of the carpet and surfaces as well as maximize its sustainability with our service."/>
 
-                        {/* <HomeServiceItem icon_name="house-cleaning" title="House Cleaning" info=""/> */}
+                        <HomeServiceItem icon_name="house-cleaning" title="Carpet Cleaning" info="The term carpet cleaning services includes terms such as: carpet cleaners, carpet shampooing services, comercial carpet cleaning, carpet refastening, carpet cleaning companies, carpet services"/>
 
                         <HomeServiceItem icon_name="broom" title="Dusting" info="Dusting is important as it reduces your risk of sickness and allergies. While most types of dust don't cause severe illnesses, they can induce mild allergies and sicknesses. Get rid of allergies and annoying dust with our service."/>
 

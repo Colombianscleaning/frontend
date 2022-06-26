@@ -33,12 +33,12 @@ const HomeHeroSingleSlide = ({ setOpen }) => {
                                         <Fade top>WE DO IT FOR YOU!</Fade>
                                     </h2>
 
-                                    <div className="tp-slider-btn">
+                                    {/* <div className="tp-slider-btn">
                                         <Fade bottom>
                                             <Link to="#contact" className="theme-btn text-white">
                                                 <i className="flaticon-enter"></i> Learn More</Link>
                                         </Fade>
-                                    </div>
+                                    </div> */}
 
                                 </div>
                             </div>

@@ -74,29 +74,29 @@ const CtaArea = () => {
             <div className="container">
                <form onSubmit={ handleEmail }>
                   <div className="row align-items-center custom-mar-20">
-                     <div className="col-xl-2 col-lg-12 custom-pad-20">
+                     <div className="col-xl-4 col-lg-12 custom-pad-20">
                         <div className="tp-appoint wow fadeInUp" data-wow-delay=".1s">
                            <h4 className="">Online <br/> Appointment </h4>
                         </div>
                      </div>
-                     <div className="col-xl-8 col-lg-9 custom-pad-20">
-                        <div className="row align-items-center custom-mar-20">
-                           <div className="col-lg-4 custom-pad-20">
+                     <div className="col-xl-6 col-lg-12 custom-pad-20">
+                        <div className="col align-items-center custom-mar-20">
+                           <div className="col-lg-8 custom-pad-20">
                               <div className="tp-appoint wow fadeInUp" data-wow-delay=".3s">
                                  <input type="text" placeholder="Full Name" name="name" onChange={ handleInputChange } required/>
                               </div>
                            </div>
-                           <div className="col-lg-4 custom-pad-20">
+                           <div className="col-lg-8 custom-pad-20">
                               <div className="tp-appoint wow fadeInUp" data-wow-delay=".5s">
                                  <input type="text" placeholder="Phone Number" name="phoneNumber" onChange={ handleInputChange } required/>
                               </div>
                            </div>
-                           <div className="col-lg-4 custom-pad-20">
+                           <div className="col-lg-8 custom-pad-20">
                               <div className="tp-appoint wow fadeInUp" data-wow-delay=".5s">
                                  <input type="text" placeholder="Email" name="email" onChange={ handleInputChange } required/>
                               </div>
                            </div>
-                           <div className="col-lg-4 custom-pad-20">
+                           <div className="col-lg-8 custom-pad-20">
                               <div className="tp-appoint select-field-arrow wow fadeInUp" data-wow-delay=".7s">
                                  <select value={serviceName} onChange={handleChangeServiceName}>
                                     <option value="">Service Name</option>
@@ -106,7 +106,7 @@ const CtaArea = () => {
                                  </select>
                               </div>
                            </div>
-                           <div className="col-lg-4 custom-pad-20">
+                           <div className="col-lg-8 custom-pad-20">
                               <div className="tp-appoint select-field-arrow wow fadeInUp" data-wow-delay=".7s">
                                  <select value={concurrency} onChange={handleChangeConcurrency}>
                                     <option value="">Concurrency</option>
