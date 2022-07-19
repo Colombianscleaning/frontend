@@ -77,7 +77,7 @@ const Sidebar = ({ show, handleClose }) => {
                                  <h4>Contact Info</h4>
                                  <ul>
                                     <li><i className="flaticon-pin"></i>Long Island, NY</li>
-                                    <li><i className="flaticon-email"></i><a href="colombianscleaning@gmail.com">colombianscleaning@gmail.com</a></li>
+                                    <li><i className="flaticon-email"></i><a href="info@colombianscleaning.com">info@colombianscleaning.com</a></li>
                                     <li><i className="flaticon-phone-call"></i><a href="tel:1(631)336-4327">+1 (631) 336 - 4327</a></li>
                                  </ul>
                                  <div className="sidebar__menu--social">

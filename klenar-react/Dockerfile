@@ -8,17 +8,8 @@ ENV PATH /app/node_modules/.bin:$PATH
 
 # install app dependencies
 
-
 # copy
 COPY . ./
-
-
-RUN npm i express
-
-RUN npm install --silent
-
-RUN npm install react-scripts@3.4.1 -g --silent
-
 
 # start app
 CMD ["node", "server.js"]

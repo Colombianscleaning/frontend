@@ -45,7 +45,7 @@ const Navigation = () => {
                                  </div>
                                  <div className="tp-header-top-info-single-text">
                                     <span className="tp-header-top-info-single-label text-dark">Email us</span>
-                                    <a href="mailto:colombianscleaning@gmail.com" className="tp-header-top-info-single-content font-medium text-dark">colombianscleaning@gmail.com</a>
+                                    <a href="mailto:info@colombianscleaning.com" className="tp-header-top-info-single-content font-medium text-dark">info@colombianscleaning.com</a>
                                  </div>
                               </div>
                            </div>
