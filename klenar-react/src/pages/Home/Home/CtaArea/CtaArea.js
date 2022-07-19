@@ -28,7 +28,7 @@ const CtaArea = () => {
       e.preventDefault();
       
       // ENVIO EMAIL CLEAN
-      const receiver_email = "colombianscleaning@gmail.com"
+      const receiver_email = "info@colombianscleaning.com"
 
       const message = `You have a new notification from your web site <br/> <br/> The information is: <br/> <br/> Name: ${name} <br/>Email: ${email} <br/>Phone number: ${phoneNumber} <br/>Service: ${serviceName} <br/>Concurrency: ${concurrency}`
 
