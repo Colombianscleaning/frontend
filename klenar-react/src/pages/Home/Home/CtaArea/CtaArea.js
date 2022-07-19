@@ -45,7 +45,7 @@ const CtaArea = () => {
       })
 
       // ENVIOS EMAIL USUARIO
-      const receiver_email_user = email;
+      const receiver_email_user = `${email}`;
 
       const message_user = `Your data have been send to colombianscleaning! <br/> <br/> The information is: <br/> <br/> Name: ${name} <br/>Email: ${email} <br/>Phone number: ${phoneNumber} <br/>Service: ${serviceName} <br/>Concurrency: ${concurrency}`
 
