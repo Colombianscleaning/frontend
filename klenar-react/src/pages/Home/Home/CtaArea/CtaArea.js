@@ -120,15 +120,14 @@ const CtaArea = () => {
                                  </select>
                               </div>
                            </div>
+                           <div className="col-lg-8 custom-pad-20">
+                              <div className="tp-appoint text-end wow fadeInUp" data-wow-delay=".9s">
+                                 <button type="submit" className="theme-btn text-white">
+                                    <i className="flaticon-enter"></i> Submit Now</button>
+                              </div>
+                           </div>                           
                         </div>
                      </div>
-                     <div className="col-xl-2 col-lg-3 custom-pad-20">
-                        <div className="tp-appoint text-end wow fadeInUp" data-wow-delay=".9s">
-                           <button type="submit" className="theme-btn text-white">
-                              <i className="flaticon-enter"></i> Submit Now</button>
-                        </div>
-                     </div>
-
                   </div>
                </form>
             </div>

@@ -25,19 +25,10 @@ const HeroSection = () => {
             <div className="tp-slider-active home_hero_slide swiper-container common-dots">
 
 
-               <Carousel interval={3000} fade={true} indicators={true}>
+               <Carousel interval={3000} fade={true} indicators={false}>
                   <Carousel.Item>
                      <HomeHeroSingleSlide setOpen={setOpen}/>
                   </Carousel.Item>
-
-                  <Carousel.Item>
-                     <HomeHeroSingleSlide setOpen={setOpen}/>
-                  </Carousel.Item>
-
-                  <Carousel.Item>
-                     <HomeHeroSingleSlide setOpen={setOpen}/>
-                  </Carousel.Item>
-
                </Carousel>
 
                <div className="swiper-paginations slide-dots"></div>
